@@ -31,7 +31,7 @@
     ```
     Run the container:
     ```
-    $ docker run -it --rm -e PORT=<your_port> <image_name>:latest
+    $ docker run -it --rm -p <your_port1>:<your_port2> -e PORT=<your_port2> <image_name>:latest
     ```
     ## Run with Docker Compose
     Build the image:
